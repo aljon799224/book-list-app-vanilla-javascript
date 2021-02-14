@@ -103,3 +103,27 @@ h1 {
   padding: 5px;
   width: 80%;
 }
+
+@media only screen and (max-width: 1200px) {
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .booklist-table {
+    width: 30%;
+  }
+
+  .booklist-table td,
+  .booklist-table th {
+    font-size: 14px;
+  }
+}
