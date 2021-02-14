@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Book App</title>
+  </head>
+  <body>
+    <div class="booklist-container">
+      <h1>
+        <i class="fas fa-book-open"></i> My Book
+        <span class="title-color">List</span>
+      </h1>
+      <form class="booklist-form">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" />
+        </div>
+        <div class="form-group">
+          <label for="author">Author</label>
+          <input type="text" id="author" />
+        </div>
+        <div class="form-group">
+          <label for="isbn">ISBN#</label>
+          <input type="text" id="isbn" />
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Add Book" class="add-btn" />
+        </div>
+      </form>
+      <table class="booklist-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN#</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="booklist-list">
+          <!-- <tr>
+            <td>Rich Dad Poor Dad</td>
+            <td>Rober Kiyosaki</td>
+            <td>41524</td>
+            <td>X</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
